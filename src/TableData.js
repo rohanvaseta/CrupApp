@@ -5,6 +5,7 @@ const TableData = (props) => {
   return (
     <div>
        <div className={"overflow"}>
+       
       <table className={props.isLightModeOn?"table-light":""}>
             <tr className={props.isLightModeOn?"toprow-light":"toprow"}>
             <td className={props.isLightModeOn?"siderow-light":"siderow"}>Id</td>
@@ -62,7 +63,7 @@ const TableData = (props) => {
         
     
       </table>
-      <div><Link to="/Form" style={{ textDecoration: 'none' }}><button className={props.isLightModeOn?"button1-light":"button1"}>Add More Data</button></Link></div>
+      <div ><Link to="/Form" style={{ textDecoration: 'none' }}><button className={props.isLightModeOn?"button1-light":"button1"}>Add More Data</button></Link></div>
     </div>
     </div>
    

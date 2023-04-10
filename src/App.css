@@ -105,22 +105,31 @@ form{
   color: black;
   
 }
+.overflow2{
+  display: flex;
+  position: relative;
+  overflow-x: auto;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
 .overflow{
   display: flex;
   position: relative;
   overflow-x: auto;
-  align-content: center;
   flex-wrap: wrap;
-  justify-content: space-around;
+  align-items: center;
+  justify-content: flex-start;
+
   
 }
+
 .overflow div{
+  width: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
-
-
+  flex-wrap: wrap;
 }
 table{
   margin-top: 50px;
