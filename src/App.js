@@ -10,6 +10,7 @@ import {
     Route,
     BrowserRouter as Router,Routes,
   } from "react-router-dom"
+import MainPage from './MainPage';
 
 
 function App() {
@@ -162,8 +163,11 @@ function App() {
         setmobileno={setmobileno}
         setpassword={setpassword}
         setid={setid}
-      />} /></Routes>
+      />} />
+      <Route path="/" element={<MainPage isLightModeOn={isLightModeOn} />} /></Routes>
+       
        </Router>
+      
     </div>
    
   );

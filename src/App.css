@@ -107,9 +107,20 @@ form{
 }
 .overflow{
   display: flex;
+  position: relative;
   overflow-x: auto;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.overflow div{
+  display: flex;
   justify-content: center;
   align-items: center;
+  
+
+
 }
 table{
   margin-top: 50px;

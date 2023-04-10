@@ -8,7 +8,9 @@ const Header = (props) => {
     <div>
       <div className={props.isLightModeOn ? "up-light" : "up"}>
         <header className={props.isLightModeOn ? "header-light" : ""}>
-          React Crud
+        <Link to="/" style={{ textDecoration: "none", color:props.isLightModeOn?"black":"rgb(248, 92, 20)"}}>
+         Home
+          </Link>
           <span>
             <Link to="/Form" style={{ textDecoration: "none", color:props.isLightModeOn?"black":"rgb(248, 92, 20)"}}>
               Form
